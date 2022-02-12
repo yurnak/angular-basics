@@ -12,7 +12,7 @@ import { PostComponent } from './post/post.component';
   declarations: [
     AppComponent,
     PostFormComponent,
-    PostComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
