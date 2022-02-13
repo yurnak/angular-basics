@@ -18,5 +18,9 @@ export class AppComponent {
    {title: 'Наступний блок', text: 'Буде про директиви і про пайпи', id:2 }
 
  ]
+
+  updatePosts(post: Post) {
+  this.posts.unshift(post)
+  }
 }
 
